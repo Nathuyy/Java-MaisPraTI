@@ -1,4 +1,4 @@
-package Ex1;
+package Ex01;
 
 public class GerenciadorTarefas {
     private Tarefa head; //primeiro nó da lista simples encadeada
@@ -29,6 +29,17 @@ public class GerenciadorTarefas {
         while (atual.next != null){
             if (atual.next.descricao.equalsIgnoreCase(descricao)) {
                 atual.next = atual.next.next;
+                return;
+            }
+            atual = atual.next;
+        }
+    }
+
+    public void completarTarefa(String descricao) {
+        Tarefa atual = head;
+        while(atual != null) {
+            if (atual.descricao.equalsIgnoreCase(descricao)) {
+                atual.marcarCompleta();
                 return;
             }
             atual = atual.next;

@@ -1,4 +1,4 @@
-package Ex1;
+package Ex01;
 
 public class Tarefa {
     String descricao;
