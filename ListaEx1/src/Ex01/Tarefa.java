@@ -3,7 +3,7 @@ package Ex01;
 public class Tarefa {
     String descricao;
     boolean completa;
-    Tarefa next; //lista encadeada precisa
+    Tarefa next; //referencia o próximo nó na lista encadeada
 
     public Tarefa(String descricao) {
         this.descricao = descricao;
