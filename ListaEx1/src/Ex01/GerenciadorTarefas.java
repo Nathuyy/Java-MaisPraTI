@@ -45,4 +45,12 @@ public class GerenciadorTarefas {
             atual = atual.next;
         }
     }
+
+    public void verTarefas() {
+        Tarefa atual = head;
+        while (atual != null) {
+            System.out.println(atual);
+            atual = atual.next;
+        }
+    }
 }
