@@ -1,2 +1,3 @@
-# Lista-7-Java-ED
-Atividade 7 +PraTI - Listas e Filas
+# Java +PraTI
+Repositório para guardar os exercícios propostos pela formação Dev Fullstack Junior +PraTI relacionados a JAVA!
+
